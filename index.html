@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pontus Nyman — Apple Platforms Developer</title>
+  <meta name="description" content="Pontus Nyman builds thoughtful, well-tested apps for iPhone, iPad, Mac and Apple Watch.">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Pontus Nyman — Apple Platforms Developer">
+  <meta property="og:description" content="Thoughtful, well-tested apps for iPhone, iPad, Mac and Apple Watch.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pontusnyman.se/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="logo">Pontus Nyman</a>
+      <nav>
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Apple Platforms Developer</p>
+        <h1>Apps that feel at home<br>on your devices.</h1>
+        <p class="lead">
+          I design and build native apps for iPhone, iPad, Mac and Apple Watch,
+          using Swift and SwiftUI. I've spent more than ten years in software quality,
+          so I care a lot about the details and test my apps thoroughly.
+        </p>
+        <div class="cta">
+          <a href="#apps" class="btn btn-primary">See what I'm building</a>
+          <a href="#contact" class="btn btn-secondary">Get in touch</a>
+        </div>
+        <ul class="platforms" aria-label="Platforms">
+          <li>iOS</li><li>iPadOS</li><li>macOS</li><li>watchOS</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="apps" class="section">
+      <div class="container">
+        <h2>Apps</h2>
+        <p class="section-lead">My first apps are on the way. Here's what I'm working on now.</p>
+
+        <div class="app-grid">
+          <!--
+            To add an app: copy an <article class="app-card">, set the name, description and icon,
+            and swap the "Coming soon" badge for an App Store link:
+            <a class="badge badge-live" href="https://apps.apple.com/app/idXXXXXXXXX">View on the App Store</a>
+          -->
+          <article class="app-card" id="scoreboard-ultra">
+            <div class="app-icon app-icon-img">
+              <img src="assets/apps/scoreboard-ultra.png" alt="ScoreBoard Ultra app icon" width="72" height="72">
+            </div>
+            <div class="app-body">
+              <h3>ScoreBoard Ultra</h3>
+              <p>
+                A bold, one-tap scoreboard for football, floorball and other team sports, with a match timer
+                that sounds a buzzer at full time. You can also set team colours, rosters and a match timeline,
+                and run winner-stays-on rotations for 3–4 teams.
+              </p>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+
+          <article class="app-card" id="fastaappen">
+            <div class="app-icon" style="--c1:#34c759; --c2:#0a9396;" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="40" height="40">
+                <circle cx="20" cy="20" r="15" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="5"/>
+                <circle cx="20" cy="20" r="15" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"
+                        stroke-dasharray="66 95" transform="rotate(-90 20 20)"/>
+              </svg>
+            </div>
+            <div class="app-body">
+              <h3>FastaAppen</h3>
+              <p>
+                A fasting tracker that shows how far into your fast you are, when it ends, and which phase
+                your body is in. It includes a Lock Screen Live Activity, home screen widgets, reminders,
+                and a log of past fasts.
+              </p>
+              <span class="badge">In development</span>
+            </div>
+          </article>
+
+          <article class="app-card app-card-empty">
+            <div class="app-icon" style="--c1:#d1d1d6; --c2:#8e8e93;" aria-hidden="true">+</div>
+            <div class="app-body">
+              <h3>Have an idea?</h3>
+              <p>I'm open to working with others on new apps. <a href="#contact">Let's talk.</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about">
+        <div>
+          <h2>About</h2>
+          <p>
+            I'm Pontus, a developer based in Hjärup, just outside Malmö and Lund in southern Sweden.
+          </p>
+          <p>
+            Before moving into app development, I spent over a decade building test platforms and
+            quality strategies for large products. I've been a QA Architect at Neo4j and a Senior Software
+            Engineer at Qlik, where I worked on Qlik Sense from day one.
+          </p>
+          <p>
+            Now I'm putting that experience into my own apps: careful engineering, thorough testing,
+            and interfaces that follow Apple's Human Interface Guidelines.
+          </p>
+        </div>
+        <div class="skills">
+          <h3>Toolbox</h3>
+          <ul>
+            <li>Swift</li><li>SwiftUI</li><li>UIKit</li><li>SwiftData</li>
+            <li>Xcode</li><li>XCTest</li><li>Swift Testing</li><li>CI/CD</li>
+            <li>TestFlight</li><li>Test automation</li><li>JavaScript</li><li>React</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Let's talk</h2>
+        <p class="section-lead">Questions, feedback, or an idea for a project? I'd like to hear from you.</p>
+        <a class="btn btn-primary btn-large" href="mailto:pontusnyman@outlook.com">pontusnyman@outlook.com</a>
+        <ul class="socials">
+          <li><a href="https://github.com/pontusnyman" rel="me">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/pontus-nyman-43887736" rel="me">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Pontus Nyman</p>
+      <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
