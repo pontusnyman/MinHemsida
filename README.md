@@ -3,8 +3,8 @@
 Personal site for Pontus Nyman, an Apple platforms developer. It's plain static HTML/CSS with no build step.
 
 - `index.html`: landing page (hero, apps, about, contact)
-- `privacy.html`: privacy policy (use as the **Privacy Policy URL** in App Store Connect)
-- `support.html`: support page (use as the **Support URL** in App Store Connect)
+- `privacy.html`: privacy policy, served at `/privacy` (use `https://www.pontusnyman.se/privacy` as the **Privacy Policy URL** in App Store Connect)
+- `support.html`: support page, served at `/support` (use `https://www.pontusnyman.se/support` as the **Support URL** in App Store Connect)
 
 ## Run locally
 
