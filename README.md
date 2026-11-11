@@ -5,6 +5,14 @@ Personal site for Pontus Nyman, an Apple platforms developer. It's plain static 
 - `index.html`: landing page (hero, apps, about, contact)
 - `privacy.html`: privacy policy, served at `/privacy` (use `https://www.pontusnyman.se/privacy` as the **Privacy Policy URL** in App Store Connect)
 - `support.html`: support page, served at `/support` (use `https://www.pontusnyman.se/support` as the **Support URL** in App Store Connect)
+- `scoreboard-ultra.html`: ScoreBoard Ultra product page, served at `/scoreboard-ultra`
+
+### App Store Connect URLs per app
+
+| App | Support URL | Marketing URL | Privacy Policy URL |
+| --- | --- | --- | --- |
+| Dishnote | `https://www.pontusnyman.se/support#dishnote` | | `https://www.pontusnyman.se/privacy#dishnote` |
+| ScoreBoard Ultra | `https://www.pontusnyman.se/support#scoreboard-ultra` | `https://www.pontusnyman.se/scoreboard-ultra` | `https://www.pontusnyman.se/privacy#scoreboard-ultra` |
 
 ## Run locally
 
